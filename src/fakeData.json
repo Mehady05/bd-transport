@@ -1,0 +1,14 @@
+[{
+    "name": "Bike",
+    "photo": "https://i.ibb.co/MMsyrxF/bike.png"
+  }, {
+    "name": "Bus",
+    "photo": "https://i.ibb.co/Cwt6JhY/bus.png"
+  }, {
+    "name": "Car",
+    "photo": "https://i.ibb.co/G9J9kkx/car.png"
+  }, {
+    "name": "Train",
+    "photo": "https://i.ibb.co/S3d19gx/train.png"
+  }
+ ]
