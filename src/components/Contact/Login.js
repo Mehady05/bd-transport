@@ -39,6 +39,8 @@ const Login = () => {
                     email: email,
                 }
                 console.log(res.user)
+                setLogin(signedInUser);
+                history.replace(from);
                 setUser(signedInUser);
 
             })
@@ -54,7 +56,8 @@ const Login = () => {
             var token = result.credential.accessToken;
             var user = result.user;
             console.log('fb user after sign in', user);
-          }).catch(function(error) {
+          })
+          .catch(function(error) {
             var errorCode = error.code;
             var errorMessage = error.message;
             console.log(errorCode, errorMessage)
