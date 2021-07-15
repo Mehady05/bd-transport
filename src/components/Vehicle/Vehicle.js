@@ -4,9 +4,7 @@ import { useHistory } from "react-router-dom";
 import "./Vehicle.css";
 
 const Vehicle = (props) => {
-  console.log(props);
   const { name, photo } = props.vehicle;
-  console.log(name, photo);
 
   const history = useHistory()
   const goToDestination = ()=>{

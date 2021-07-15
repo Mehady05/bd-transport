@@ -27,7 +27,7 @@ const NavArea = () => {
         >
           <div className="container">
             <Navbar.Brand as={Link} to="/">
-              React-Bootstrap
+              BD-TRANSPORT
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

@@ -7,7 +7,6 @@ import './CardVehicle.css'
 const CardVehicle = () => {
 
     const [vehicles, setVehicles] = useState([])
-    console.log(vehicles)
 
     useEffect(() => {
         setVehicles(FakeData)
